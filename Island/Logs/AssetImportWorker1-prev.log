@@ -1,0 +1,457 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'ru' Physical Memory: 6090 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/YandexDisk/Unity/Island
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50739
+Successfully changed project path to: D:/YandexDisk/Unity/Island
+D:/YandexDisk/Unity/Island
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11800] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1771596477 [EditorId] 1771596477 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11800] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1771596477 [EditorId] 1771596477 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 8.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/YandexDisk/Unity/Island/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     3045 MB
+    Driver:   30.0.13044.13001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011298 seconds.
+- Loaded All Assemblies, in  0.695 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.528 seconds
+Domain Reload Profiling: 1221ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (288ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (281ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (529ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (406ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.203 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.175 seconds
+Domain Reload Profiling: 2376ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (727ms)
+		LoadAssemblies (541ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (363ms)
+			TypeCache.Refresh (318ms)
+				TypeCache.ScanAssembly (292ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1176ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (839ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (655ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (29.1 KB). Loaded Objects now: 3676.
+Memory consumption went from 140.8 MB to 140.8 MB.
+Total: 6.889400 ms (FindLiveObjects: 0.512800 ms CreateObjectMapping: 0.526400 ms MarkObjects: 5.742600 ms  DeleteObjects: 0.105900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10452.937060 seconds.
+  path: Assets/Menu/Large Buttons/Colored Large Buttons/Back  col_Button.png
+  artifactKey: Guid(42d4ce6e77811b240875a5222cbd0a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Large Buttons/Colored Large Buttons/Back  col_Button.png using Guid(42d4ce6e77811b240875a5222cbd0a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5435c4a19578352c90ecc88f8854b4ae') in 0.121134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Menu/Large Buttons/Colored Large Buttons/Exit  col_Button.png
+  artifactKey: Guid(48dd4850edaf43e489a9105c5ba713b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Large Buttons/Colored Large Buttons/Exit  col_Button.png using Guid(48dd4850edaf43e489a9105c5ba713b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c5ce3f9be73bcee35de20ac006eaff') in 0.022638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Menu/Large Buttons/Colored Large Buttons/Continue  col_Button.png
+  artifactKey: Guid(f8ad401b11489a343bf628d856aea674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Large Buttons/Colored Large Buttons/Continue  col_Button.png using Guid(f8ad401b11489a343bf628d856aea674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81344981e0fb3dbb7fb88e9cef7b014') in 0.019786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Menu/afdd3e180a652f3d1df207d2bfc48a74.jpg
+  artifactKey: Guid(080faa3a4e3392b448b6b3aadc3a6f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/afdd3e180a652f3d1df207d2bfc48a74.jpg using Guid(080faa3a4e3392b448b6b3aadc3a6f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902ab73b80d63fcd1dab08a41fdfb656') in 0.112727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Menu/Menu Buttons sprite (BnW).png
+  artifactKey: Guid(0193ed3f3c5ea634dabdd654bbd70fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Menu Buttons sprite (BnW).png using Guid(0193ed3f3c5ea634dabdd654bbd70fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2c738cf8d5b5e3b3db689eeaedda3e') in 0.030353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Menu/Menu Buttons sprite (Colored).png
+  artifactKey: Guid(65e9f8f48b69b954698fff884c6b2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Menu Buttons sprite (Colored).png using Guid(65e9f8f48b69b954698fff884c6b2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ad850b914f32b860c9ff3abf49d6b9') in 0.028814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.068579 seconds.
+  path: Assets/Menu/Large Buttons/Large Buttons/Continue Button.png
+  artifactKey: Guid(98ae0b8bf58f2f34190f3e4e541c03b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Large Buttons/Large Buttons/Continue Button.png using Guid(98ae0b8bf58f2f34190f3e4e541c03b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85376c1b81de5af4ade8f43cf2408f04') in 0.018086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Menu/Large Buttons/Large Buttons/Start Button.png
+  artifactKey: Guid(a5eb81eb9eaa5404283d97f0c6026b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Large Buttons/Large Buttons/Start Button.png using Guid(a5eb81eb9eaa5404283d97f0c6026b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e3dacd81ec78f997abf03515fd4d31') in 0.021736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Menu/Large Buttons/Large Buttons/Play Button.png
+  artifactKey: Guid(d94f868253baf884db19823dc14f6593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Large Buttons/Large Buttons/Play Button.png using Guid(d94f868253baf884db19823dc14f6593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7b3facc0d7221b9d7b364d158c0967') in 0.020725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Menu/Large Buttons/Large Buttons/Load Button.png
+  artifactKey: Guid(0f3d49279299be047a6c3e1dcdf283c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Large Buttons/Large Buttons/Load Button.png using Guid(0f3d49279299be047a6c3e1dcdf283c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd59fb52b3b32196de42cf1732414bd') in 0.021654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Menu/Large Buttons/Large Buttons/New game Button.png
+  artifactKey: Guid(a5f28638bf50a854c9c678699d7ee679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Large Buttons/Large Buttons/New game Button.png using Guid(a5f28638bf50a854c9c678699d7ee679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b210b30b1521ed48d6805df1d6540399') in 0.017471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Menu/Large Buttons/Large Buttons/Options Button.png
+  artifactKey: Guid(0d2638c54e6b1fb408494c90ffc30802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Large Buttons/Large Buttons/Options Button.png using Guid(0d2638c54e6b1fb408494c90ffc30802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88b8d37e9c14700648d98466cbb758e') in 0.019844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Menu/Large Buttons/Large Buttons/Controls Button.png
+  artifactKey: Guid(5150330ea7e330c4494bf60d7f37fa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Large Buttons/Large Buttons/Controls Button.png using Guid(5150330ea7e330c4494bf60d7f37fa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb6eaadd6d5ad434c8a09c4e34284b0') in 0.017036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3684.
+Memory consumption went from 91.3 MB to 91.3 MB.
+Total: 5.941100 ms (FindLiveObjects: 0.366500 ms CreateObjectMapping: 0.105500 ms MarkObjects: 5.435000 ms  DeleteObjects: 0.032400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 231.021646 seconds.
+  path: Assets/Menu/Square Buttons/Square Buttons/Back Square Button.png
+  artifactKey: Guid(5fde6fb132f63a442937773ae257909f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Square Buttons/Back Square Button.png using Guid(5fde6fb132f63a442937773ae257909f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705f93c8d2db0e5ffdc5d57190ba3abd') in 0.078915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/Menu/Square Buttons/Square Buttons/Pause Square Button.png
+  artifactKey: Guid(6eeab5716bcb4244b9a9caf9e898d949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Square Buttons/Pause Square Button.png using Guid(6eeab5716bcb4244b9a9caf9e898d949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3debea276ef49ecfb5b860817565c3c9') in 0.020209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Menu/Square Buttons/Square Buttons/V Square Button.png
+  artifactKey: Guid(38ea914564b6b6c428b8d33dbfe4b91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Square Buttons/V Square Button.png using Guid(38ea914564b6b6c428b8d33dbfe4b91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26d71b822723df71d096becff7efd62') in 0.021549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Menu/Square Buttons/Square Buttons/Next Square Button.png
+  artifactKey: Guid(4b888b658cc5e354bb23c9089347702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Square Buttons/Next Square Button.png using Guid(4b888b658cc5e354bb23c9089347702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e851206d58f940454a652720bb8e1c29') in 0.018833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Menu/Square Buttons/Square Buttons/Up Square Button.png
+  artifactKey: Guid(8555c301c74b93e4eaab02546b68f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Square Buttons/Up Square Button.png using Guid(8555c301c74b93e4eaab02546b68f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4484a5ed0c552fad0d5920fb8432079a') in 0.018954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Menu/Square Buttons/Square Buttons/X Square Button.png
+  artifactKey: Guid(0d4fb5afc32c99c4eb84ba7097960df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Square Buttons/X Square Button.png using Guid(0d4fb5afc32c99c4eb84ba7097960df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0c1664e34618a7e0b953033856a7bc') in 0.021324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Menu/Square Buttons/Square Buttons/Return Square Button.png
+  artifactKey: Guid(a40e11503aee77f42a1c8dfd61616585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Square Buttons/Return Square Button.png using Guid(a40e11503aee77f42a1c8dfd61616585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4b251e4b2fcccd777b2945fe83dc60') in 0.018493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Menu/Square Buttons/Square Buttons/Music Square Button.png
+  artifactKey: Guid(c807a1453d1b268439322265091d2df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Square Buttons/Music Square Button.png using Guid(c807a1453d1b268439322265091d2df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418a47918d33fe9fe9502aa1e4837aa6') in 0.017014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.464583 seconds.
+  path: Assets/Menu/Square Buttons/Colored Square Buttons/Back col_Square Button.png
+  artifactKey: Guid(68079c11290b40843a6532366d1426b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Colored Square Buttons/Back col_Square Button.png using Guid(68079c11290b40843a6532366d1426b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fb1459d329405dded467283b221eae') in 0.017639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Menu/Square Buttons/Colored Square Buttons/Music col_Square Button.png
+  artifactKey: Guid(5f355befd61dde14aa7512bf44c25ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Colored Square Buttons/Music col_Square Button.png using Guid(5f355befd61dde14aa7512bf44c25ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16b37cfc668089125dffb31115e2cf4') in 0.022197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Menu/Square Buttons/Colored Square Buttons/X col_Square Button.png
+  artifactKey: Guid(8222268c73a17a6469eede3f3a983b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Colored Square Buttons/X col_Square Button.png using Guid(8222268c73a17a6469eede3f3a983b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79d95173a259fcc7ea2e8b852ed772c') in 0.017966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Menu/Square Buttons/Colored Square Buttons/Down col_Square Button.png
+  artifactKey: Guid(4461e1de06205974181d64c25823347d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Colored Square Buttons/Down col_Square Button.png using Guid(4461e1de06205974181d64c25823347d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc1b2667315140a9bd2c239c10c7874') in 0.016383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Menu/Square Buttons/Colored Square Buttons/Questionmark col_Square Button.png
+  artifactKey: Guid(ee11cfed811b9f34ca2dc38e10e33df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Colored Square Buttons/Questionmark col_Square Button.png using Guid(ee11cfed811b9f34ca2dc38e10e33df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f94046cfb67ddefd4f328473176f7f') in 0.019670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Menu/Square Buttons/Colored Square Buttons/On Off col_Square Button.png
+  artifactKey: Guid(c80df412b5ca22b4e8882e1e95ed966c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Colored Square Buttons/On Off col_Square Button.png using Guid(c80df412b5ca22b4e8882e1e95ed966c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5062ea7029916f24c8445a7fba6e3ea') in 0.016261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Menu/Square Buttons/Colored Square Buttons/Settings col_Square Button.png
+  artifactKey: Guid(4c6488dd937643a47907a47c80feefd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Colored Square Buttons/Settings col_Square Button.png using Guid(4c6488dd937643a47907a47c80feefd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455e7338be6ea004a02d048273450c4b') in 0.017164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Menu/Square Buttons/Colored Square Buttons/V col_Square Button.png
+  artifactKey: Guid(3849baacdd8320f45995102f40e311d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Square Buttons/Colored Square Buttons/V col_Square Button.png using Guid(3849baacdd8320f45995102f40e311d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645de944016768fab2fa5ddf0911de2f') in 0.021012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2613.575424 seconds.
+  path: Assets/house/roof.jpg
+  artifactKey: Guid(ba6e65475d7af9447a7fdf1b0935283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/roof.jpg using Guid(ba6e65475d7af9447a7fdf1b0935283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08555dfb9b0d8b976188b0b2b4aeac15') in 0.034745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/house/woods.png
+  artifactKey: Guid(1af445ed269977348936a9b0b0986a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/woods.png using Guid(1af445ed269977348936a9b0b0986a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04be49f55352456fcfa27b16ee9cd0ae') in 0.024654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 77.600224 seconds.
+  path: Assets/rock_2/rock_texture.jpg
+  artifactKey: Guid(ede397cadacac694b84793786007c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rock_2/rock_texture.jpg using Guid(ede397cadacac694b84793786007c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff11381f3bcb36b6b4aeac65edb6863e') in 0.022371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

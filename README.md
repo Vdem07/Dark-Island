@@ -39,12 +39,8 @@
 - `Esc` — пауза
 
 ## Скриншоты
-![Рисунок1](https://github.com/user-attachments/assets/c379ea94-bb8e-4761-804c-7c48a9923697)
-![Рисунок5](https://github.com/user-attachments/assets/cfb1e1ad-3108-47a2-8c84-cb5549f23e07)
-![Рисунок2](https://github.com/user-attachments/assets/0f288a01-a618-409e-a758-4aeaedbd2d54)
-![Рисунок3](https://github.com/user-attachments/assets/86642f0e-dd78-4550-8ed2-c0a8d1a007ef)
-![Рисунок4](https://github.com/user-attachments/assets/6657e98e-c066-4ed5-b316-10b9cb340c98)
-
+![Рисунок6](https://github.com/user-attachments/assets/c46cadd2-71e8-466d-92b2-65553e955e28) ![Рисунок7](https://github.com/user-attachments/assets/a8d60f72-108f-4cab-80d0-fe7db0317324) ![Рисунок8](https://github.com/user-attachments/assets/597afaa2-de85-4ac9-be46-1f7c3c922ee8) ![Рисунок9](https://github.com/user-attachments/assets/e7a38cf3-3d68-4867-aba9-1cf357f2dc34) ![Рисунок10](https://github.com/user-attachments/assets/ab3b1b13-2860-4599-9fae-2e09d2300679)
+ 
 ## Лицензия
 Этот проект распространяется под лицензией MIT. См. [LICENSE](LICENSE) для деталей.
 
